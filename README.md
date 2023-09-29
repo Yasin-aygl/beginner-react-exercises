@@ -4,7 +4,7 @@
 
 1. `Navbar`: A component that represents the navigation bar of your website or app.
 
-2. `Experiment`: A component I use to conduct experiments.
+2. `Deneme`: A component I use to conduct experiments.
 
 3. `UseRef`: A component to learn about the useRef hook.
 
@@ -45,7 +45,7 @@
 
 **For example, to clone the "my-react-app" repo:**
 
-`git clone https://github.com/kullanici_adi/my-react-app.git`
+`git clone https://github.com/user_name/my-react-app.git`
 
 **This command downloads the project from GitHub to your computer.**
 

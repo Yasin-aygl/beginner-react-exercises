@@ -1,0 +1,204 @@
+.App {
+  text-align: center;
+}
+
+/* NAVBAR CSS */
+
+.navbar {
+  background-color: #333;
+  overflow: hidden;
+}
+
+.navbar-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-item {
+  display: inline-block;
+}
+
+.navbar-link {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar-link:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* DENEME */
+.deneme {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px;
+}
+
+.open-modal {
+  position: absolute;
+  text-align: center;
+  inset: 0;
+  margin: auto;
+  width: 600px;
+  height: 500px;
+  color: #fff;
+  background-color: #333;
+  border: 5px solid black;
+}
+
+/* CALCULATE CSS */
+
+.calculate {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  background-color: #ccc;
+}
+
+.calculate input {
+  margin: 20px;
+  width: 70px;
+  display: inline-block;
+}
+
+/* INCREASE CSS */
+
+.increase {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  background-color: #eee;
+}
+
+.increase button {
+  margin-bottom: 50px;
+}
+
+/* ADD USERS CSS */
+.addUsers {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  background-color: #ccc;
+}
+
+.addUsers input {
+  margin-top: 20px;
+}
+
+/* DİSABLED BUTTON */
+
+.disabled-button {
+  text-align: center;
+}
+
+/* DECREASE - İNCREASE */
+
+.decrease-increase {
+  text-align: center;
+  background-color: #ccc;
+}
+
+.decrease-increase button {
+  margin-bottom: 20px;
+}
+
+/* STATE & UPTADE DOM */
+
+.state-uptade {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+/* UseEFFECT CSS*/
+.UseEffect {
+  text-align: center;
+  background-color: #ccc;
+}
+.UseEffect p {
+  display: inline-block;
+}
+
+/* FETCH USER CSS  */
+
+.fetch-user {
+  text-align: center;
+}
+
+/* FETCH CAT AXİOS  */
+
+.fetch-cat {
+  background-color: #ccc;
+  text-align: center;
+}
+
+/* FETCH BOOKS LİST */
+.fetch-list {
+  text-align: center;
+}
+
+.fetch-list button {
+  background-color: aquamarine;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.fetch-list button:hover {
+  opacity: 0.7;
+}
+
+.books-container {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.books {
+  background-color: #eee;
+  margin: 5px;
+}
+
+/* TO DO CSS */
+
+.to-do {
+  background-color: #ccc;
+  text-align: center;
+}
+
+/* USE REF  */
+.use-ref {
+  text-align: center;
+}
+
+
+/* POKEMON CARD CSS  */
+
+.pokemon-card {
+  background-color: #ccc;
+  text-align: center ;
+}
+
+.pokemon-card .card-item {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.pokemon-card .card-item .pokemons:hover {
+  background-color: #eee;
+}

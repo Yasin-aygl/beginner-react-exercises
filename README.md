@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+### A repository of components I created for practice during my React learning process.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Contents of the repository ;
 
-## Available Scripts
+1. `Navbar`: A component that represents the navigation bar of your website or app.
 
-In the project directory, you can run:
+2. `Experiment`: A component I use to conduct experiments.
 
-### `npm start`
+3. `UseRef`: A component to learn about the useRef hook.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+4. `Calculator`: A component used to build a calculator application. It allows the user to perform mathematical operations.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+5. `IncreaseNum`: A component used to perform operations of increasing and decreasing numbers. done with the useState hook.
 
-### `npm test`
+6. `AddUsers`: A component used to add or manage users into a list.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+7. `DisableButton`: A component used to learn how to enable or disable a button.
 
-### `npm run build`
+8. `DecreaseIncrease`: Another component that contains operations to decrease and increase numbers. This is used to implement the work with useState.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+9. `StateUpdate`: A component used to learn the concept of updating state in React components.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+10. `UseEffect`: A component used to learn about the useEffect hook. This represents the ability to take actions in response to side effects (API calls, database operations, etc.).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+11. `FetchUser`: A component used to pull user data from an API.
 
-### `npm run eject`
+12. `FetchCat`: Similarly, a component used to fetch random cat images from an API.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+13. `FetchList`: A component for pulling data from an API and listing that data.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+14. `ToDo`: A component used to create a to-do list application.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+15. `LikeImages`: A component used to add likes to images or show counting operations.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+16. `PokemonCard`: It can be a component used to display Pokemon data. This is used to learn how to use external API data.
 
-## Learn More
+17. `AxiosCountries`: A component used to pull and display country data using an HTTP client such as Axios.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+18. `PropsIndexColor`: A component used to learn how to pass data to components using Props (properties).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+### You can fork the repository and use it. Commands that may be useful for you:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+`git clone <repository_url>`
 
-### Analyzing the Bundle Size
+**For example, to clone the "my-react-app" repo:**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+`git clone https://github.com/kullanici_adi/my-react-app.git`
 
-### Making a Progressive Web App
+**This command downloads the project from GitHub to your computer.**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+**Go to React Project: Navigate to the corresponding repo folder:**
 
-### Advanced Configuration
+`cd my-react-app`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+**Install Dependencies: If the React project uses a package manager such as npm or Yarn, install the dependencies by running the following command in the project folder:**
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+`npm install`
